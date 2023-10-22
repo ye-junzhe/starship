@@ -284,6 +284,7 @@ struct RepoStatus {
     staged: usize,
     typechanged: usize,
     untracked: usize,
+    starred: usize,
 }
 
 impl RepoStatus {
